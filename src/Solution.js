@@ -2,9 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './Solution.css';
 let _ = require("underscore");
-let data = {
-  clicks: require('./clicks.json')
-}
+let data = { clicks: require('./clicks.json') }
 
 class Solution extends React.Component {
   constructor() {
@@ -71,7 +69,8 @@ class Solution extends React.Component {
       }
     }
 
-    return result;    
+    // flat function is used to flatten the array
+    return result.flat();    
   }
 
   render() {
@@ -79,8 +78,7 @@ class Solution extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>Process clicks data in React</p>
-
+          <p>Developed By: Gaurav Walia</p>
           {/* link to initiate the process of pulling the requested clicks data on START */}
           <a className="App-link" onClick = { this.downloadFile } target="_blank" rel="noopener noreferrer">Download</a>
         </header>
