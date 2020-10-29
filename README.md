@@ -1,6 +1,6 @@
 # Click
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The application is given an array of cliks as input and produces subset of clicks as an output based on the below conditons:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The application is given an array of clicks as input and produces subset of clicks as an output based on the below conditons:
 
 1. For each IP within each one hour period, only the most expensive click is placed into the
 result set.
