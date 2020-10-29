@@ -9,9 +9,8 @@ period, only place the earliest click into the result set.
 3. If there are more than 10 clicks for an IP in the overall array of clicks, do not include any
 of those clicks in the result set.
 
-As per the input provided in the clicks.json file:
-
-Note - Click with ip "22.22.22.22" is removed from the result as it is appearing more than 10 times in the overall clicks.
+Note - As per the input provided in the clicks.json file:
+Click with ip "22.22.22.22" is removed from the result as it is appearing more than 10 times in the overall clicks.
 
 
 # Application
